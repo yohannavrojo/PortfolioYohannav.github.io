@@ -48,22 +48,6 @@
   }
   
 
-/* @media (max-width: 580px) {
-  .experiencia {
-    padding: 1em 0;
-    width: 52em;
-  }
- 
- 
-} */
-
-@media (max-width: 710px) {
-  .experiencia {
-    padding: 1em 0;
-  }
- 
-}
-
 
 /* -------------carousel------------- */
 
@@ -71,7 +55,7 @@
   width: 92rem;
     height: 35em;
     overflow: hidden;
-    padding: 2.1rem;
+ 
 }
 
 .itemCarrousel{

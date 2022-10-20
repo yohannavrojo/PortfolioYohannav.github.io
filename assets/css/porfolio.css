@@ -96,32 +96,3 @@
   }
   
 
-@media(max-width: 580px){
-    .proyect{
-        padding: 1em 0;
-        width: 34em;
-    }
-    .proyect-casillas{
-    
-        flex-direction: column;
-    }
-    .proyect .proyect-indiv{
-        width: 92%;
-    }
-    }
-
-    @media (max-width: 710px){
-       .proyect{
-            padding: 1em 0;
-          
-        }
-        .proyect-casillas{
-        
-            flex-direction: column;
-        }
-        .proyect .proyect-indiv{
-            width: 92%;
-        }
-       
-        
-        }

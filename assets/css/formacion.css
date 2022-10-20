@@ -88,32 +88,3 @@
  }
  
 
-@media(max-width: 580px){
-   .formacion{
-       padding: 1em 0;
-       width: 34em;
-   }
-   .formacion-casillas{
-   
-       flex-direction: column;
-   }
-   .formacion .formacion-indiv{
-       width: 92%;
-   }
-   }
-
-   @media (max-width: 710px){
-      .formacion{
-           padding: 1em 0;
-         
-       }
-       .formacion-casillas{
-       
-           flex-direction: column;
-       }
-       .formacion .formacion-indiv{
-           width: 92%;
-       }
-      
-       
-       }

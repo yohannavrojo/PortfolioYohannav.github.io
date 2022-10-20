@@ -2,8 +2,8 @@
   --clippy: polygon(0 0, 0% 100%, 0 100%);
 }
 .main-fondo {
-  /* margin: 1px auto; */
-  width: 96vh;
+  margin: 1px auto;
+  width: 146vh;
   height: 91vh;
   display: grid;
   grid-template-columns: repeat(1, 1fr);

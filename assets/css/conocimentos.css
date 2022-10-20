@@ -65,23 +65,9 @@
     font-weight: 700;
     color:var(--colorL);
 }
-@media(max-width: 580px){
-    .cono1{
-        padding-top: 5em;
-        padding-bottom: 6em;
-        width: 45em;
-    
-    }
-     
-   }
 
-   @media(max-width: 710px){
-    .cono1{
-        padding-top: 5em;
-        padding-bottom: 6em;
-    
-    }
+
      
-   }
+   
 
 
