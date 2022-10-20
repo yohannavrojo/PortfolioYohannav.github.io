@@ -155,7 +155,7 @@
     }
     @media(min-width: 768px){
         .fondo {
-            width: 79vh;
+            width: 75.5vh;
         }
         .menu {
             width: 45rem;
@@ -192,7 +192,7 @@
           
         }
         .porfolio {
-            width: 79vh;
+            width: 75vh;
         }
         .proyect .proyect-cont {
             width: 98%;
@@ -208,7 +208,7 @@
             margin-top: 3rem;
         }
         .conteCarrousel {
-            width: 95%;
+            width: 89%;
         }
        
         .proyect .proyect-indiv {
@@ -218,22 +218,28 @@
         }
         .experiencia {
             background-color: var(--color-principal);
-            width: 51rem;
+            
         }
-        .formacion .formacion-casillas {
-            display: block;
-            width: 107rem;
-            margin-left: 90rem;
+        .experiencia .experiencia-casillas {
+          
+            width: 87%;
+        }
+        
+        .formacion .formacion-casillas .formacion-indiv {
+           
+            width: 32rem;
         }
         .formulario .formulario-cont .formula-contact .formula-colum {
             padding: 5rem 2rem 2rem 4rem;
         }
         .formulario .formulario-cont {
-            width: 105%;
+            width: 100%;
            
         }
         footer {
-            width: 48rem;
+          
+    width: 45.5rem;
+
         }
         }
 
