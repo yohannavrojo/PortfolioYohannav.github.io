@@ -1,0 +1,87 @@
+.cono1{
+    background-color: #ffffff;
+    text-align: center;
+    padding-bottom: 12rem;
+    margin-top: 6vh;
+
+}
+.cono1 .divider {
+    height: 7px;
+    width: 7rem;
+    background-color: rgb(223, 191, 141);
+   
+  }
+.cono1 .cono-completo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  
+}
+.cono1 .cono-completo .cono-title{
+    font-size: 45px;
+    font-weight: 900;
+    color:black;
+}
+.cono1 .cono-completo .cono-descrip{
+    max-width: 400px;
+}
+
+.cono1 .cono-completo .cono{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    width: 72vw;
+
+}
+.cono1 .cono-completo .cono-contenedor{
+    justify-content: center;
+
+} 
+.cono1 .cono-completo .cono-contenedor .cono-icon{
+    color: #6b4a19;
+    padding: 40px 20px;
+    background-color: #b18d43;
+    border: 1px solid #785b24;
+    border-radius: 8px;
+    width: 260px;
+    margin: 10px;
+    padding: 30px;
+    transition: 0.2s;
+    box-shadow: 14px 16px 20px 0px #7b5818;
+}
+
+
+.cono1 .cono-completo .cono-contenedor .cono-icon img{
+   width: 8em;
+   margin: 1em;
+}
+.cono1 .cono-completo .cono-contenedor .cono-icon img:before {
+  content: "";
+}
+.cono1 .cono-completo .cono-contenedor .cono-icon-title{
+    font-size: 1.25em;
+    font-weight: 700;
+    color:var(--colorL);
+}
+@media(max-width: 580px){
+    .cono1{
+        padding-top: 5em;
+        padding-bottom: 6em;
+        width: 45em;
+    
+    }
+     
+   }
+
+   @media(max-width: 710px){
+    .cono1{
+        padding-top: 5em;
+        padding-bottom: 6em;
+    
+    }
+     
+   }
+
+

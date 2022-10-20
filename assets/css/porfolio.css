@@ -1,0 +1,127 @@
+.porfolio{
+     background-color: var(--color-principal);
+     padding-bottom: 6.4%;
+    
+}
+.porfolio h2{
+    color:rgb(0, 0, 0) ;
+    font-size: 3rem;
+    text-align: center;
+
+}
+.porfolio .divider{
+        height: 7px;
+        width: 7rem;
+        background-color: rgb(223, 191, 141);
+        margin-left: 42%;
+}
+.porfolio-cosas{
+    
+    padding: 2rem;
+}
+.proyect{
+    text-align: center;
+    
+   
+}
+
+.proyect .proyect-cont{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.proyect .proyect-parrafo{
+    max-width: 400px;
+}
+.proyect .proyect-casillas{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.proyect .proyect-indiv{
+    width: calc(93% / 3 - (0.75em * 4));
+    margin: 0.75em;
+    border: 1px solid #75580b;
+    border-radius: 8px;
+    padding: 20px;
+    overflow: hidden;
+    box-shadow: 11px 11px 20px #6b4e0e;
+}
+
+.proyect .proyect-casillas img{
+    display: block;
+    width: 100%;
+    border-radius: 6px;
+    height: 83%;
+   
+}
+.proyect .proyect-casillas a{
+    text-decoration: none;
+    color: #2e2e31;
+}
+
+
+/* .proyect-casillas .proyect-indiv:hover{
+    background-color: #937218;
+   transform: scale(2.2);
+  
+   
+   } */
+
+.proyect .proyect-casillas .proyect-indiv{
+    font-weight: 600;
+    margin-top: 8px;
+}
+.proyect-name{
+   margin-top: 1rem;
+}
+
+.porfolio .leer-mas {
+     box-shadow: 1px 3px 11px -2px rgb(0 0 0);
+     border: none;
+     cursor: pointer;
+     font-size: 20px;
+     border-radius: 20px;
+     background-color: rgb(182 149 96);
+ 
+  }
+  
+ .porfolio .leer-mas:hover {
+    background-color: rgb(106, 84, 17);
+    box-shadow: 1px 3px 11px -2px rgb(255, 255, 255);
+    color: whitesmoke;
+  }
+  
+
+@media(max-width: 580px){
+    .proyect{
+        padding: 1em 0;
+        width: 34em;
+    }
+    .proyect-casillas{
+    
+        flex-direction: column;
+    }
+    .proyect .proyect-indiv{
+        width: 92%;
+    }
+    }
+
+    @media (max-width: 710px){
+       .proyect{
+            padding: 1em 0;
+          
+        }
+        .proyect-casillas{
+        
+            flex-direction: column;
+        }
+        .proyect .proyect-indiv{
+            width: 92%;
+        }
+       
+        
+        }

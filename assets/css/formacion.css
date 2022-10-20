@@ -1,0 +1,119 @@
+.porfolio{
+    background-color: var(--color-principal);
+    padding-bottom: 6.4%;
+   
+}
+.porfolio h2{
+   color:rgb(0, 0, 0) ;
+   font-size: 3rem;
+   text-align: center;
+
+}
+.porfolio .divider{
+       height: 7px;
+       width: 7rem;
+       background-color: rgb(223, 191, 141);
+       margin-left: 42%;
+}
+.porfolio-cosas{
+   
+   padding: 2rem;
+}
+.formacion{
+   text-align: center;
+   
+  
+}
+
+.formacion .formacion-cont{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.formacion .formacion-parrafo{
+   max-width: 400px;
+}
+.formacion .formacion-casillas{
+   display: flex;
+   flex-wrap: wrap;
+   width: 100%;
+}
+.formacion .formacion-indiv{
+   width: calc(93% / 3 - (0.75em * 4));
+   margin: 0.75em;
+   border: 1px solid #75580b;
+   border-radius: 8px;
+   padding: 20px;
+   overflow: hidden;
+   box-shadow: 11px 11px 20px #6b4e0e;
+}
+
+.formacion .formacion-casillas img{
+   display: block;
+   width: 100%;
+   border-radius: 6px;
+   height: 71%;
+  
+}
+.formacion .formacion-casillas a{
+   text-decoration: none;
+   color: #2e2e31;
+}
+
+.formacion .formacion-casillas .formacion-indiv{
+   font-weight: 600;
+   margin-top: 8px;
+}
+.formacion-name{
+  margin-top: 1rem;
+}
+
+.porfolio .leer-mas {
+    box-shadow: 1px 3px 11px -2px rgb(0 0 0);
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: rgb(182 149 96);
+
+ }
+ 
+.porfolio .leer-mas:hover {
+   background-color: rgb(106, 84, 17);
+   box-shadow: 1px 3px 11px -2px rgb(255, 255, 255);
+   color: whitesmoke;
+ }
+ 
+
+@media(max-width: 580px){
+   .formacion{
+       padding: 1em 0;
+       width: 34em;
+   }
+   .formacion-casillas{
+   
+       flex-direction: column;
+   }
+   .formacion .formacion-indiv{
+       width: 92%;
+   }
+   }
+
+   @media (max-width: 710px){
+      .formacion{
+           padding: 1em 0;
+         
+       }
+       .formacion-casillas{
+       
+           flex-direction: column;
+       }
+       .formacion .formacion-indiv{
+           width: 92%;
+       }
+      
+       
+       }

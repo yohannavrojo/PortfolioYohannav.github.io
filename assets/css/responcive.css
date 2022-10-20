@@ -1,0 +1,106 @@
+@media(max-width: 360px){
+   
+    .fondo {
+     
+        width: 129vh;
+    }
+
+    .menu {
+        width: 50rem;
+      
+    }
+
+    .sobre-mi {
+    
+        width: 230vw;
+ 
+    }
+
+    .sobre-info-img {
+        
+        height: 16rem;
+       
+    }
+
+    .porfolio {
+      
+        width: 128vh;
+    }
+
+    .proyect .proyect-casillas {
+       
+        width: 114vh;
+        padding-left: 48%;
+    }
+
+    .cono1 .cono-completo .cono-title {
+        
+        margin-left: 13rem;
+    }
+    .cono1 .cono-completo .cono-contenedor .cono-icon {
+    
+        width: 286px;
+        margin-left: 11rem;
+      
+        
+    }
+
+    .conteCarrousel {
+        width: 98%;
+        
+    }
+    .contenedor-texto {
+        
+        font-size: 2rem;
+    }
+    .itemCarrouselArrows {
+        
+        top: 72px;
+        
+    }
+
+    .conteCarrouselController {
+        width: 105%;
+        
+    }
+
+    .formacion .formacion-cont {
+       
+        padding-left: 8rem;
+    }
+
+    .formulario .formulario-cont .formula-contact .formula-colum {
+       
+        padding-bottom: 5rem;
+    }
+
+    footer {
+        width: 50rem;
+    }
+
+    .nave-ul, .nave-li, a {
+        
+        display: inherit;
+    }
+
+
+   
+    }
+
+
+@media(max-width: 700px){
+   
+    .conteCarrousel {
+        width: 42rem;
+       
+    }
+}
+
+
+@media(max-width: 900px){
+   
+    .conteCarrousel {
+        width: 46rem;
+       
+    }
+}

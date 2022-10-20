@@ -1,0 +1,59 @@
+:root {
+  --clippy: polygon(0 0, 0% 100%, 0 100%);
+}
+.main-fondo {
+  margin: 1px auto;
+  width: 96vh;
+  height: 91vh;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  align-items: center;
+  
+  
+}
+
+
+.main-fondo .informacion .nombre {
+  font-weight: bolder;
+  font-size: 4em;
+  margin-bottom: .5rem;
+  
+}
+
+.main-fondo .informacion .escrito {
+
+  font-size: 2rem;
+  font-weight: 300;
+
+}
+
+.informacion .nombre {
+  font-size: 30px;
+}
+
+span {
+  color: rgb(153, 96, 4);
+}
+.main-img {
+  width: 115%;
+  border: 7px solid rgb(153, 96, 4);
+}
+
+.descargar-cv {
+  padding: 13px 22px;
+  background-color: rgb(153, 96, 4);
+  border: none;
+  border-radius: 20px;
+  margin-top: 10px;
+  box-shadow: 1px 3px 11px -2px rgb(0 0 0);
+  cursor: pointer;
+  font-family: "Montserrat Alternates", sans-serif;
+  margin-left: 39%;
+  font-size: 20px;
+}
+
+.descargar-cv:hover {
+  background-color: rgb(106, 84, 17);
+  box-shadow: 1px 3px 11px -2px rgb(255, 255, 255);
+  color: whitesmoke;
+}

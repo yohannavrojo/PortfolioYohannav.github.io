@@ -1,0 +1,150 @@
+.experiencia {
+  background-color: var(--color-principal);
+}
+.experiencia h2 {
+  color: rgb(0, 0, 0);
+  font-size: 3rem;
+  text-align: center;
+}
+.experiencia .divider {
+  height: 7px;
+  width: 7rem;
+  background-color: rgb(223, 191, 141);
+  margin-left: 42%;
+}
+.experiencia-cosas {
+  padding: 2rem 0rem 1rem 0rem;;
+}
+.experiencia-container {
+  text-align: center;
+}
+
+.experiencia .experiencia-cont {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.experiencia .experiencia-casillas {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  
+}
+
+.experiencia-name {
+  padding-top: 2rem;
+  color: white;
+  text-align: center;
+  /* font-size: ; */
+}
+
+.experiencia-texto {
+   
+    color: white;
+    text-align:center ;
+  }
+  
+
+@media (max-width: 580px) {
+  .experiencia {
+    padding: 1em 0;
+    width: 52em;
+  }
+ 
+ 
+}
+
+@media (max-width: 710px) {
+  .experiencia {
+    padding: 1em 0;
+  }
+ 
+}
+
+
+/* -------------carousel------------- */
+
+.conteCarrousel{
+  width: 92rem;
+    height: 35em;
+    overflow: hidden;
+    padding: 2.1rem;
+}
+
+.itemCarrousel{
+    position: relative;
+    height: 100%;
+}
+
+.itemCarrouselTarjeta{
+  display: flex;
+    height: 100%;
+}
+
+.contenedor-texto{
+    margin: auto;
+}
+
+.itemCarrouselArrows{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px; 
+}
+
+.itemCarrouselArrows > i:hover {
+    cursor: pointer;
+}
+
+#itemCarrousel-1{
+   
+    background: url(../img/logo-kixx-3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: darken;
+}
+
+#itemCarrousel-2{ 
+      background: url(../img/directv.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: darken;
+}
+
+#itemCarrousel-3{
+    background: url(../img/regepsa.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: darken;
+}
+
+.conteCarrouselController{
+  width: 94vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.conteCarrouselController > a{
+    text-decoration: none;
+    font-size: 2em;
+    color: rgb(0, 0, 0);
+}
+
+.itemCarrouselArrows > a > i{
+    color:rgb(153, 96, 4) ;
+}

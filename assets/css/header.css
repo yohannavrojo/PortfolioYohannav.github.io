@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Lobster&family=Montserrat+Alternates:wght@500&family=Ms+Madi&display=swap');
+
+body{
+   
+      font-family: 'Montserrat Alternates', sans-serif;
+}
+:root{
+    --color-principal:rgb(181, 147, 85);
+    --color-letraSelecionada: rgb(153, 96, 4);
+}
+
+.fondo{
+    background-color: rgb(181, 147, 85);
+    
+}
+header{
+    width: 100vw;
+    padding-top: 30px;
+   
+}
+
+.letra{
+    margin-right: 14px;
+}
+.letra-y{
+    font-weight: bolder;
+    color: aliceblue;
+    font-size: 60px;
+    margin-top: -3px;
+    
+}
+.letra-r{
+    font-weight: bolder;
+    color:rgb(153, 96, 4) ;
+    font-size: 60px;
+}
+.menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.menu .menu-link{
+    list-style: none;
+text-decoration: none;
+
+}
+
+.menu a {
+    color: rgb(255, 255, 255);
+}
+
+.menu .active{
+    color:rgb(153, 96, 4) ;
+}
+
+.menu a:hover{
+    color:rgb(153, 96, 4) ;
+}
+
+
+
