@@ -48,14 +48,14 @@
   }
   
 
-@media (max-width: 580px) {
+/* @media (max-width: 580px) {
   .experiencia {
     padding: 1em 0;
     width: 52em;
   }
  
  
-}
+} */
 
 @media (max-width: 710px) {
   .experiencia {

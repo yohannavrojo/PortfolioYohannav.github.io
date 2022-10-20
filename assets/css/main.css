@@ -2,7 +2,7 @@
   --clippy: polygon(0 0, 0% 100%, 0 100%);
 }
 .main-fondo {
-  margin: 1px auto;
+  /* margin: 1px auto; */
   width: 96vh;
   height: 91vh;
   display: grid;

@@ -1,38 +1,87 @@
-@media(max-width: 360px){
-   
+@media(min-width: 375px){
+    .letra-y,.letra-r {
+       
+        font-size: 33px;
+       
+    }
+    
+    .letra {
+       
+        margin-top: 1rem;
+    }
+    .main-fondo .informacion .nombre {
+       
+        font-size: 2em;
+       
+    }
+    .main-fondo {
+       
+    width: 47vh;
+    height: 55vh;
+    padding-left: 2rem;
+      
+    }
     .fondo {
      
         width: 129vh;
     }
 
     .menu {
-        width: 50rem;
+        width: 27rem;
       
     }
 
     .sobre-mi {
     
-        width: 230vw;
+        /* width: 230vw; */
+        display: flex;
  
     }
 
-    .sobre-info-img {
-        
-        height: 16rem;
-       
+    .sobre-mi {
+          
+    display: flex;
+    flex-wrap: wrap;
+    height: 163vw;
+    margin-left: 6px;
     }
-
+    .sobre-info-img {
+        width: 76%;
+        height: 13rem;
+        margin-top: 3rem;
+        margin-left: 2rem;
+    }
+     
+    .sobre-info {
+        /* color: black; */
+        /* grid-column: 6/11; */
+        margin: 0;
+    }
     .porfolio {
       
-        width: 128vh;
+        width: 57vh;
     }
 
     .proyect .proyect-casillas {
        
-        width: 114vh;
-        padding-left: 48%;
+        width: 47vh;
+        display: block;
+     
     }
 
+    .proyect .proyect-cont {
+        width: 64%;
+     
+    }
+    .cono1 .cono-completo {
+       
+        width: 24%;
+    }
+ 
+    .cono1 {
+      
+        margin-top: 0vh;
+    }
     .cono1 .cono-completo .cono-title {
         
         margin-left: 13rem;
@@ -46,12 +95,12 @@
     }
 
     .conteCarrousel {
-        width: 98%;
+        width: 86%;
         
     }
     .contenedor-texto {
         
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     .itemCarrouselArrows {
         
@@ -64,18 +113,32 @@
         
     }
 
-    .formacion .formacion-cont {
+    /* .formacion .formacion-cont {
        
         padding-left: 8rem;
+    } */
+
+    .formacion .formacion-casillas {
+        display: block;
+        width: 57%;
+    }
+    .formacion .formacion-cont {
+        width: 67%;
+       
     }
 
     .formulario .formulario-cont .formula-contact .formula-colum {
        
         padding-bottom: 5rem;
     }
+    .formulario .formulario-cont .formula-contact {
+     
+        padding:0;
+       
+    }
 
     footer {
-        width: 50rem;
+        width: 21rem;
     }
 
     .nave-ul, .nave-li, a {
@@ -87,20 +150,3 @@
    
     }
 
-
-@media(max-width: 700px){
-   
-    .conteCarrousel {
-        width: 42rem;
-       
-    }
-}
-
-
-@media(max-width: 900px){
-   
-    .conteCarrousel {
-        width: 46rem;
-       
-    }
-}
