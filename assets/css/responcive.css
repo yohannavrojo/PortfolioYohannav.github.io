@@ -23,7 +23,7 @@
     }
     .fondo {
      
-        width: 129vh;
+        width:57vh;
     }
 
     .menu {
@@ -136,6 +136,10 @@
         padding:0;
        
     }
+    .contact .input-form {
+        display: flex;
+        flex-wrap: wrap;
+    }
 
     footer {
         width: 21rem;
@@ -149,4 +153,87 @@
 
    
     }
+    @media(min-width: 768px){
+        .fondo {
+            width: 79vh;
+        }
+        .menu {
+            width: 45rem;
+        }
+        .menu-item{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .letra {
+            
+            margin-left: 5rem;
+        }
+        .main-fondo {
+         
+            padding-left: 12rem;
+        }
+        .sobre-info {
+          
+            margin: 0;
+            margin-left: 4rem;
+        }
+        .sobre-info-img {
+            width: 78%;
+            height: 25rem;
+            margin-left: 7rem;
+        }
+        .sobre-mi {
+            
+            height: 133vw;
+         
+        }
+        .sobre-info p {
+            font-size: 38px;
+          
+        }
+        .porfolio {
+            width: 79vh;
+        }
+        .proyect .proyect-cont {
+            width: 98%;
+        }
+        .proyect .proyect-casillas {
+               
+    display: inline-block;
+    
+    margin: 11px auto;
+        }
+        .cono1 .cono-completo {
+            width: 77%;
+            margin-top: 3rem;
+        }
+        .conteCarrousel {
+            width: 95%;
+        }
+       
+        .proyect .proyect-indiv {
+            width: 31rem;
+            margin: 0;
+        
+        }
+        .experiencia {
+            background-color: var(--color-principal);
+            width: 51rem;
+        }
+        .formacion .formacion-casillas {
+            display: block;
+            width: 107rem;
+            margin-left: 90rem;
+        }
+        .formulario .formulario-cont .formula-contact .formula-colum {
+            padding: 5rem 2rem 2rem 4rem;
+        }
+        .formulario .formulario-cont {
+            width: 105%;
+           
+        }
+        footer {
+            width: 48rem;
+        }
+        }
 
