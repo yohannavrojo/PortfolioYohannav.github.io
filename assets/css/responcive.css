@@ -1,9 +1,9 @@
-@media only screen and (min-width:360px) and (max-width: 768px) {
+@media only screen and (min-width:0px) and (max-width: 768px) {
   .fondo {
-    width: 56rem;
+    width: 59.5rem;
   }
   .menu {
-    width: 56rem;
+    width: 59.5rem;
   }
   .menu-item {
     display: flex;
@@ -31,11 +31,11 @@
   }
   .sobre-mi {
    
-    width: 56rem;
+    width: 59.5rem;
   }
 
   .porfolio {
-    width: 56rem;
+    width: 59.5rem;
   }
   .proyect .proyect-cont {
     width: 98%;
@@ -54,35 +54,39 @@
     margin: 0;
   }
   .cono1 {
-    width: 56rem;
+    width: 59.5rem;
   }
 
   .experiencia {
     background-color: var(--color-principal);
-    width: 56rem;  
+    width: 59.5rem;
 }
  
 .conteCarrousel {
-    width: 51rem;
+    width: 59.5rem;
    
 }
   .conteCarrouselController {
-    width: 56rem;
+    width: 59.5rem;
   
 }
 .formacion {
     width: 100%;
-    padding-left: 15%;
+ 
+}
+.formacion .formacion-casillas {
+  
+    padding-left: 19rem;
 }
   .formacion .formacion-casillas .formacion-indiv {
     width: 32rem;
   }
   .formulario .formulario-cont .formula-contact .formula-colum {
-    padding: 2rem 0rem 1rem 1rem;
+    padding: 2rem 0rem 2rem 0rem;
    
   }
   .formulario {
-    width: 56rem;
+    width: 59.5rem;
 }
 .formulario .formulario-cont .formula-contact {
    
@@ -93,7 +97,7 @@
     width: 100%;
   }
   footer {
-    width: 56rem;
+    width: 57rem;
   }
 
   .nave-ul, .nave-li, a {
@@ -101,226 +105,3 @@
     display: inline-table;
 }
 }
-
-@media (max-width: 360px) {
-    .fondo {
-        width: 80.2rem;
-    }
-    .menu {
-      width: 58rem;
-    }
-    .menu-item {
-      display: flex;
-      flex-wrap: wrap;
-    }
-    .letra {
-      margin-left: 5rem;
-    }
-  
-    .main-fondo {
-      height: 116vh;
-     
-    }
-    .informacion{
-      width: 37rem;
-    }
-    .sobre-info {
-      margin: 0;
-      margin-left: 4rem;
-    }
-    .sobre-info-img {
-      width: 82%;
-      height: 15rem;
-  
-      margin-left: 6rem;
-    }
-    .sobre-mi {
-    
-        width: 82.2rem;
-        height: 40rem;
-    }
-  
-    .porfolio {
-        width: 82.2rem;
-    }
-    .proyect .proyect-cont {
-      width: 98%;
-    }
-    .proyect .proyect-casillas {
-        display: contents;
-    }
-   
-    .conteCarrousel {
-      width: 89%;
-    }
-  
-    .proyect .proyect-indiv {
-      width: 31rem;
-      margin: 0;
-    }
-    .cono1 {
-      width: 82.2rem;
-    }
-  
-    .experiencia {
-      background-color: var(--color-principal);
-      width: 79rem;  
-  }
-   
-  .conteCarrousel {
-      width: 53rem;
-     
-  }
-    .conteCarrouselController {
-      width:76rem;
-    
-  }
-    .formulario {
-      width: 82.2rem;
-  }
-  .formulario .formulario-cont .formula-contact .formula-colum {
-  
-    padding-left: 4%;
-}
-    footer {
-      min-width: 78rem;
-    }
-  
-  
-  }
-
-  @media only screen and (min-width:769px) and (max-width: 1200px) {
-    .fondo {
-      width: 75rem;
-    }
-    .menu {
-      width: 76rem;
-    }
-    .menu-item {
-      display: flex;
-      flex-wrap: wrap;
-    }
-    .letra {
-      margin-left: 5rem;
-    }
-  
-    .main-fondo {
-      height: 116vh;
-     
-    }
-    .informacion{
-      width: 37rem;
-    }
-    .sobre-info {
-      margin: 0;
-      margin-left: 4rem;
-    }
-    .sobre-info-img {
-      width: 82%;
-      height: 15rem;
-  
-      margin-left: 6rem;
-    }
-    .sobre-mi {
-      width: 76rem;
-    }
-  
-    .porfolio {
-      width: 76rem;
-    }
-    .proyect .proyect-cont {
-      width: 98%;
-    }
-    .proyect .proyect-casillas {
-   
-      padding-left: 3rem;
-    }
-    .proyect .proyect-casillas .proyect-indiv {
-      
-        margin: 1rem;
-    }
-   
-    .conteCarrousel {
-      width: 89%;
-    }
-  
-    .proyect .proyect-indiv {
-      width: 31rem;
-      margin: 0;
-    }
-    .cono1 {
-      width: 75rem;
-    }
-  
-    .experiencia {
-      background-color: var(--color-principal);
-      width: 75rem;  
-  }
-   
-  .conteCarrousel {
-      width: 71rem;
-     
-  }
-    .conteCarrouselController {
-      width: 78rem;
-    
-  }
- 
-    .formulario {
-      width: 75rem;
-  }
-  
-    footer {
-      width: 75rem;
-    }
-  
-    
-  }
-
-  @media (max-width: 2000px) {
-   
-    .informacion{
-      width: 37rem;
-    }
-    .sobre-info {
-      margin: 0;
-    }
-
-    .proyect .proyect-casillas .proyect-indiv {
-      
-        margin: 1rem;
-      
-        margin-left: 8rem;
-    }
-   
-    .conteCarrousel {
-      width: 89%;
-    }
-  
-    .proyect .proyect-indiv {
-      width: 31rem;
-      margin: 0;
-    }
- 
-    .experiencia {
-       
-        width: 101rem;
-    }
-  .conteCarrousel {
-      width: 92rem;
-      padding-left: 1rem;
-     
-  }
-    .conteCarrouselController {
-      width: 78rem;
-    
-  }
- 
-
-  
- 
-  
-    
-  }
-  
-  
