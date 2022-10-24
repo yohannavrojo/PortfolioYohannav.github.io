@@ -1,5 +1,6 @@
 .experiencia {
   background-color: var(--color-principal);
+  height: 39rem;
 }
 .experiencia h2 {
   color: rgb(0, 0, 0);
@@ -38,7 +39,7 @@
   padding-top: 2rem;
   color: white;
   text-align: center;
-  /* font-size: ; */
+ 
 }
 
 .experiencia-texto {
@@ -49,86 +50,3 @@
   
 
 
-/* -------------carousel------------- */
-
-.conteCarrousel{
-  width: 96rem;
-    height: 35em;
-    overflow: hidden;
- 
-}
-
-.itemCarrousel{
-    position: relative;
-    height: 100%;
-}
-
-.itemCarrouselTarjeta{
-  display: flex;
-    height: 100%;
-}
-
-.contenedor-texto{
-    margin: auto;
-}
-
-.itemCarrouselArrows{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px; 
-}
-
-.itemCarrouselArrows > i:hover {
-    cursor: pointer;
-}
-
-#itemCarrousel-1{
-   
-    background: url(../img/logo-kixx-3.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-color: rgba(0, 0, 0, 0.7);
-    background-blend-mode: darken;
-}
-
-#itemCarrousel-2{ 
-      background: url(../img/directv.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-color: rgba(0, 0, 0, 0.7);
-    background-blend-mode: darken;
-}
-
-#itemCarrousel-3{
-    background: url(../img/regepsa.jpeg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-color: rgba(0, 0, 0, 0.7);
-    background-blend-mode: darken;
-}
-
-.conteCarrouselController{
-  width: 94vw;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.conteCarrouselController > a{
-    text-decoration: none;
-    font-size: 2em;
-    color: rgb(0, 0, 0);
-}
-
-.itemCarrouselArrows > a > i{
-    color:rgb(153, 96, 4) ;
-}
