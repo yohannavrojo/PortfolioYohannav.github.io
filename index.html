@@ -345,31 +345,33 @@
                         </ul>
                     </section>
                 </section>
-                <section class="formula-colum">
+
+                <section id="formulario" class="formula-colum">
                     <h2 class="formula-title"> Mensaje </h2>
                     <div class="divider"></div>
                     <form action="" class="contact">
+
                         <div class="input-form">
-                            <div class="form-control">
+                            <div class="form-control" >
                                 <label for="Nombre"> Nombre</label>
-                                <input type="text" required class="input-fristname" placeholder="fristname">
+                                <input type="text"class="input-fristname"id="nombre" name="nombre" placeholder="fristname">
                             </div>
-                            <div class="form-control">
+                            <div class="form-contro "  >
                                 <label for="Apellido"> Apellido</label>
-                                <input type="text" required class="input-lastname" placeholder="lastname">
+                                <input type="text"class="input-lastname"id="apellido" name="apellido" placeholder="lastname">
                             </div>
                         </div>
 
-                        <div class="form-control">
+                        <div class="form-control" >
                             <label for="email"> Correo</label>
-                            <input type="email" required class="input-email" placeholder="ejemplo : xxxxxx@xxxx.com">
+                            <input type="email"  class="input-email"  id="correo"name="correo" placeholder="ejemplo : xxxxxx@xxxx.com">
                         </div>
-                        <div class="form-control">
+                        <div class="form-control"  >
                             <label for="message"> Mensaje</label>
-                            <textarea type="text" cols="30" rows="10" class="input-mesaje"
+                            <textarea type="text"id="textarea" name="textarea" cols="30" rows="10" class="input-mesaje"
                                 placeholder="Escribe aqui "></textarea>
                         </div>
-                        <button type="submit" class="form-enviar">Enviar</button>
+                        <button type="submit" id="submit" class="form-enviar">Enviar</button>
                     </form>
                 </section>
             </div>
@@ -399,6 +401,7 @@
        
     </footer>
 
+    <script src="./validador.js" ></script>
 </body>
 
 </html>

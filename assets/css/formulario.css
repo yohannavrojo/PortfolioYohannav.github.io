@@ -40,10 +40,7 @@
     display: flex;
     color: black;
 }
-/* .item:hover{
-color: rgb(215, 189, 148);
 
-} */
 .ic{ 
     align-items: center;
     padding: 5px 10px;
@@ -78,6 +75,9 @@ color: rgb(215, 189, 148);
     font-weight: 600;
     margin-top: 5px;
     text-align: initial;
+} 
+ .formulario_grupo-incorrecto label{
+    color: brown;
 }
 .contact input,textarea{
     border-radius: 20px;
@@ -111,3 +111,9 @@ color: rgb(215, 189, 148);
 
 
 
+
+
+.formulario_grupo-incorrecto .formulario-validacion{
+    color: brown;
+    opacity: 1;
+}
