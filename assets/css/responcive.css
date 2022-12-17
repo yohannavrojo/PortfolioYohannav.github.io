@@ -318,7 +318,7 @@
 
 @media screen and (min-width: 1201px) {
   .fondo {
-    width: 96em;
+    width: 110em;
   }
   .menu {
     width: 93rem;
@@ -352,7 +352,7 @@
     height: 19rem;
   }
   .porfolio {
-    width: 96rem;
+    width: 110rem;
     
   }
   .proyect .proyect-cont {
@@ -360,7 +360,7 @@
     
 }
   .cono1 {
-    width: 96em;
+    width: 110em;
   }
 
   .cono1 .cono-completo .cono-contenedor {
@@ -369,15 +369,15 @@
 }
 .experiencia {
   
-  width: 96rem;
+  width: 110rem;
   height: 42rem;
 }
 
 .formulario {
-  width: 96rem;
+  width: 110rem;
 }
 footer {
-  width: 96rem;
+  width: 110rem;
 }
 
 }
