@@ -6,8 +6,8 @@ footer{
     justify-content: center;
     align-items: center;
     padding: 80px 20px 60px;
-    background-color: var(--color-principal);
-    color: white;
+    background-color: white;
+    color: black;
     list-style: none;
 
 }
@@ -22,7 +22,7 @@ footer{
  margin: 14px;
     text-decoration: none;
     font-size: 18px;
-   color: white;
+   color: rgb(21, 20, 20);
    
 }
 footer .nave-ul .nave-li .ai:hover{
