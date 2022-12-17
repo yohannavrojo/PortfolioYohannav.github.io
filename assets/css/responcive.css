@@ -318,7 +318,7 @@
 
 @media screen and (min-width: 1201px) {
   .fondo {
-    width: 96em;
+    width: 120em;
   }
   .menu {
     width: 93rem;
@@ -340,7 +340,7 @@
 
   .sobre-mi {
     grid-template-columns: repeat(8, 1fr);
-    width: 94rem;
+    width: 120rem;
 }
 
   .sobre-info {
@@ -352,7 +352,7 @@
     height: 19rem;
   }
   .porfolio {
-    width: 96rem;
+    width: 120rem;
     
   }
   .proyect .proyect-cont {
@@ -360,7 +360,7 @@
     
 }
   .cono1 {
-    width: 96em;
+    width: 120em;
   }
 
   .cono1 .cono-completo .cono-contenedor {
@@ -369,15 +369,15 @@
 }
 .experiencia {
   
-  width: 96rem;
+  width: 120rem;
   height: 41rem;
 }
 
 .formulario {
-  width: 96rem;
+  width: 120rem;
 }
 footer {
-  width: 96rem;
+  width: 120rem;
 }
 
 }
