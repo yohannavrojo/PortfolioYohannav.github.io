@@ -318,7 +318,7 @@
 
 @media screen and (min-width: 1201px) and (max-width: 2000px) {
   .fondo {
-    width: 96em;
+    width: 100%;
   }
   .menu {
     width: 93rem;
@@ -352,7 +352,7 @@
     height: 19rem;
   }
   .porfolio {
-    width: 96rem;
+    width: 100%;
     
   }
   .proyect .proyect-cont {
@@ -360,7 +360,7 @@
     
 }
   .cono1 {
-    width: 96em;
+    width:100%;
   }
 
   .cono1 .cono-completo .cono-contenedor {
@@ -369,7 +369,7 @@
 }
 .experiencia {
   
-  width: 96rem;
+  width: 100%;
   height: 42rem;
 }
 
@@ -377,7 +377,7 @@
   width: 96rem;
 }
 footer {
-  width: 96rem;
+  width: 100%;
 }
 
 }
@@ -385,7 +385,7 @@ footer {
 
 @media screen and (min-width: 2001px) {
   .fondo {
-    width: 120em;
+    width: 100%;
   }
   .menu {
     width: 93rem;
@@ -419,7 +419,7 @@ footer {
     height: 19rem;
   }
   .porfolio {
-    width: 120rem;
+    width: 100%;
     
   }
   .proyect .proyect-cont {
@@ -427,7 +427,7 @@ footer {
     
 }
   .cono1 {
-    width: 120em;
+    width: 100%;
   }
 
   .cono1 .cono-completo .cono-contenedor {
@@ -436,16 +436,16 @@ footer {
 }
 .experiencia {
   
-  width: 120rem;
+  width: 100%;
   height: 42rem;
 }
 
 .formulario {
-  width: 120rem;
+  width: 100%;
 }
 footer {
-  width: 120rem;
-  
+  width: 100%;
+
 }
 
 }
