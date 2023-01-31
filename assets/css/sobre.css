@@ -1,33 +1,26 @@
 .sobre-mi{
+    background-color: white;
     display: grid;
-    grid-template-columns: repeat(10,1fr);
-    width: 114vw;
-    height: 120vh;
+    grid-template-columns: repeat(2,1fr);
     align-items: center;
-   
+    height: 525px; 
 }
  .sobre-mi h2{
     color:rgb(153, 96, 4) ;
     font-size: 3rem;
 }
- .sobre-info .divider{
-    margin-top: 1rem;
-    height: 7px;
-    width: 7rem;
-    background-color:rgb(223, 191, 141) ;
-    margin-bottom: 3rem;
-}
+
 .sobre-info-img{
     width: 70%;
     height: 21rem;
-    grid-column: 1/6;
+    grid-column: 2/1;
     margin: 3rem;
     border-radius: 150px 30px;
     
 }
 .sobre-info{
     color: black;
-    grid-column: 6/9;
+    grid-column: 2/4;
     margin: 5rem;
 }
  .sobre-info p{

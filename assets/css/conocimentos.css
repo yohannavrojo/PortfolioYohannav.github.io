@@ -1,16 +1,11 @@
 .cono1{
-    background-color: #ffffff;
+    background-color:white;
     text-align: center;
     padding-bottom: 12rem;
     margin-top: 6vh;
 
 }
-.cono1 .divider {
-    height: 7px;
-    width: 7rem;
-    background-color: rgb(223, 191, 141);
-   
-  }
+
 .cono1 .cono-completo{
     display: flex;
     flex-direction: column;

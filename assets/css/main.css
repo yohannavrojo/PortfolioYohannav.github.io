@@ -3,7 +3,7 @@
 }
 .main-fondo {
   margin: 1px auto;
-  width: 146vh;
+  width: 124vh;
   height: 91vh;
   display: grid;
   grid-template-columns: repeat(1, 1fr);

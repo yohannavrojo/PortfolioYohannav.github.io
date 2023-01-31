@@ -9,16 +9,8 @@
    text-align: center;
 
 }
-.porfolio .divider{
-       height: 7px;
-       width: 7rem;
-       background-color: rgb(223, 191, 141);
-       margin-left: 42%;
-}
-.porfolio-cosas{
-   
-   padding: 2rem;
-}
+
+
 .formacion{
    text-align: center;
    
@@ -42,7 +34,7 @@
    width: 100%;
 }
 .formacion .formacion-indiv{
-   width: calc(93% / 3 - (0.75em * 4));
+   width: calc(97% / 3 - (0.75em * 4));
    margin: 0.75em;
    border: 1px solid #75580b;
    border-radius: 8px;

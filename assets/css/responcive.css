@@ -1,60 +1,56 @@
-@media screen and (min-width: 360px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .fondo {
-    width: 62rem;
-    height: 53rem;
+    width: 64.9rem;
+    height: 36rem;
   }
   .menu {
-    width: 59.5rem;
+    width: 64.2em;
   }
+  .menu a{    margin: 12px;}
+  .letra {
+    margin: 14px 48px 3px;
+}
   .menu-item {
     display: flex;
     flex-wrap: wrap;
   }
-  .letra {
-    margin-left: 5rem;
-  }
-
+  
   .main-fondo {
     height: 94vh;
   }
   .informacion {
     width: 38rem;
-    padding-left: 13rem;
+    
   }
 
-  .sobre-info {
-    margin: 0;
-    margin-left: 4rem;
-  }
   .sobre-info-img {
     width: 82%;
     height: 15rem;
   }
   .sobre-mi {
-    grid-template-columns: repeat(9, 1fr);
-    width: 62rem;
+    width: 64.9rem;
   }
 
   .porfolio {
-    width: 62rem;
-    height: 149rem;
-    padding-left: 2%;
+    width: 64.9rem;
+    height: 100%;
   }
   .proyect {
-    padding-left: 2%;
     padding-top: 2rem;
   }
-
+  .formacion .formacion-casillas {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
   .proyect .proyect-casillas .proyect-indiv {
     margin-top: 22px;
   }
   .proyect .proyect-cont {
     width: 98%;
   }
-  .proyect .proyect-casillas {
-    margin: 12px auto;
-    padding-left: 12rem;
-  }
+ 
 
   .conteCarrousel {
     width: 89%;
@@ -65,13 +61,14 @@
     margin: 0;
   }
   .cono1 {
-    width: 62em;
+    width: 64.9rem;
+    padding-bottom: 69px;
   }
 
   .experiencia {
     background-color: var(--color-principal);
-    width: 62rem;
-    height: 85rem;
+    width: 64.9rem;
+    height: 75rem;
   }
 
   .conteCarrousel {
@@ -81,13 +78,10 @@
     width: 62rem;
   }
   .formacion {
-    width: 100%;
-    padding-left: 6%;
+  
     padding-top: 2rem;
   }
-  .formacion .formacion-casillas {
-    padding-left: 19rem;
-  }
+ 
   .formacion .formacion-casillas .formacion-indiv {
     width: 32rem;
   }
@@ -110,28 +104,29 @@
   }
 
   footer {
-    width: 62rem;
+    width: 62.4rem;
   }
 
   .nave-ul,
-  .nave-li,
-  a {
+  .nave-li {
     display: inline-table;
     margin-left: 1.7rem;
   }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+ @media screen and (max-width: 1024px) {
   .fondo {
-    width: 77em;
+    width: 69.8em;
     height: 53rem;
   }
   .menu {
-    width: 72rem;
+    width: 70rem;
   }
-
+.menu-lista{
+  width: 85%;
+}
   .letra {
-    margin-left: 5rem;
+    margin-left: 2rem;
     padding-top: 1rem;
   }
 
@@ -139,48 +134,44 @@
     height: 69vh;
   }
   .informacion {
-    width: 38rem;
-    padding-left: 13rem;
+
+    padding-left: 0rem;
+    padding-top: 9rem;
   }
 
   .sobre-info {
-    margin: 0;
-    margin-left: 4rem;
+    margin: 0px 58px 0px;
   }
   .sobre-info-img {
     width: 88%;
     height: 23rem;
   }
   .sobre-mi {
-    grid-template-columns: repeat(9, 1fr);
-    width: 77rem;
+   
+    width: 88.8em;
   }
-
-  /* .sobre-info p {
-    font-size: 24px;
-
-} */
 
   .porfolio {
-    width: 77rem;
-    height: 83rem;
-    padding-left: 2%;
+    width: 69.8em;
+    height: 100%;
+  
   }
-  .proyect {
-    padding-left: 2%;
-    padding-top: 2rem;
-  }
-
+  .porfolio .divider {
+    margin-left: 42%;
+}
   .conteCarrousel {
     width: 89%;
   }
 
   .proyect .proyect-indiv {
-    width: 31rem;
+    width: 36rem;
     margin: 0;
   }
+  .ptoyect .proyect-cont{
+    padding-left: 5%;
+  }
   .cono1 {
-    width: 77em;
+    width: 69.8em;
   }
 
   .cono1 .cono-completo .cono-contenedor {
@@ -188,8 +179,9 @@
   }
   .experiencia {
     background-color: var(--color-principal);
-    width: 77rem;
-    height: 66rem;
+    width: 69.8em;
+    height: 100%;
+    padding-bottom: 10%;
   }
 
   .conteCarrousel {
@@ -198,23 +190,23 @@
   .conteCarrouselController {
     width: 62rem;
   }
-
+  .proyect .proyect-casillas {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
   .formacion .formacion-casillas .formacion-indiv {
     width: 24rem;
-    margin-left: 7rem;
+    margin-left: 5rem;
   }
   .formacion .formacion-casillas img {
     height: 18rem;
   }
-  .formulario .formulario-cont .formula-contact .formula-colum {
-    padding: 2rem 0rem 2rem 0rem;
-  }
-  .formulario {
-    width: 77rem;
-  }
+  
 
   footer {
-    width: 77rem;
+    width: 66.8em;
   }
 
   .nave-ul,
@@ -222,26 +214,32 @@
   a {
     display: inline-table;
     margin-left: 1.7rem;
-    margin: 20px;
+    margin: 15px;
   }
 
   .main-fondo .descargar-cv {
-    margin-left: 20rem;
+    margin-left: 14rem;
   }
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1200px) {
+@media screen and (max-width: 1440px) {
   .fondo {
-    width: 94em;
-    height: 53rem;
+    width: 90rem;
+    height: 39rem
   }
   .menu {
-    width: 91rem;
+    width: 89rem;
   }
 
   .letra {
-    margin-left: 5rem;
+   
     padding-top: 1rem;
+  }
+  .menu-lista{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
   }
 
   .main-fondo {
@@ -249,7 +247,7 @@
   }
   .informacion {
     width: 52rem;
-    padding-left: 26rem;
+    padding-top: 182px;
   }
 
   .sobre-info {
@@ -257,36 +255,61 @@
     margin-left: 4rem;
   }
   .sobre-info-img {
-    width: 88%;
+    width: 89%;
     height: 23rem;
   }
   .sobre-mi {
-    grid-template-columns: repeat(9, 1fr);
-    width: 94rem;
+    grid-template-columns: repeat(2, 1fr);
+  
   }
   .sobre-info p {
     font-size: 24px;
   }
 
   .porfolio {
-    width: 94rem;
-    height: 58rem;
+    width: 90rem;
+    height: 100%;
   }
-  .proyect {
-    padding-left: 1%;
-    padding-top: 5rem;
-  }
+  .porfolio-cosas {
+    padding-top: 2rem;
+    width: 86%;
+}
+.porfolio h2 {
+  padding-left: 7%;
+}
 
+.proyect .proyect-casillas {
+display: flex;
+justify-content: center;
+padding-bottom: 28px;
+
+}
+.proyect .proyect-casillas .proyect-indiv {
+  font-weight: 600;
+  width: 33%;
+  margin: 1rem;
+}
+.proyect .proyect-indiv{
+  padding-left: 23px;
+}
+.proyect .proyect-cont {
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
   .cono1 {
-    width: 94em;
+    width: 90rem;
+
   }
 
   .experiencia {
    
-    width: 94rem;
-    height: 66rem;
+    width: 90rem;
+    height: 100%;
   }
-
+ 
   .conteCarrousel {
     width: 77rem;
   }
@@ -296,12 +319,10 @@
 
   .formacion .formacion-casillas .formacion-indiv {
     width: 20rem;
-    margin-left: 7rem;
+    margin-left: 5rem;
     height: 20rem;
   }
   .formacion .formacion-casillas {
-    width: 106%;
-
     padding-top: 2rem;
   }
   .formulario .formulario-cont .formula-contact .formula-colum {
@@ -312,140 +333,6 @@
   }
 
   footer {
-    width: 94rem;
+    width: 87.5rem;
   }
-}
-
-@media screen and (min-width: 1201px) and (max-width: 2000px) {
-  .fondo {
-    width: 100%;
-  }
-  .menu {
-    width: 93rem;
-  }
-  .letra {
-    margin-left: 2rem;
-  }
-  .main-fondo {
-    height: 90vh;
-  }
-
-  .menu-item {
-    line-height: 3rem;
-  }
-  .informacion {
-    width: 45rem;
-    padding-left: 14rem;
-  }
-
-  .sobre-mi {
-    grid-template-columns: repeat(8, 1fr);
-    width: 94rem;
-}
-
-  .sobre-info {
-    margin: 0rem;
-  }
-
-  .sobre-info-img {
-    width: 61%;
-    height: 19rem;
-  }
-  .porfolio {
-    width: 100%;
-    
-  }
-  .proyect .proyect-cont {
-    width: 103%;
-    
-}
-  .cono1 {
-    width:100%;
-  }
-
-  .cono1 .cono-completo .cono-contenedor {
-    
-    width: 100%;
-}
-.experiencia {
-  
-  width: 100%;
-  height: 42rem;
-}
-
-.formulario {
-  width: 96rem;
-}
-footer {
-  width: 100%;
-}
-
-}
-
-
-@media screen and (min-width: 2001px) {
-  .fondo {
-    width: 100%;
-  }
-  .menu {
-    width: 93rem;
-  }
-  .letra {
-    margin-left: 2rem;
-  }
-  .main-fondo {
-    height: 90vh;
-  }
-
-  .menu-item {
-    line-height: 3rem;
-  }
-  .informacion {
-    width: 45rem;
-    padding-left: 14rem;
-  }
-
-  .sobre-mi {
-    grid-template-columns: repeat(8, 1fr);
-    width: 94rem;
-}
-
-  .sobre-info {
-    margin: 0rem;
-  }
-
-  .sobre-info-img {
-    width: 61%;
-    height: 19rem;
-  }
-  .porfolio {
-    width: 100%;
-    
-  }
-  .proyect .proyect-cont {
-    width: 103%;
-    
-}
-  .cono1 {
-    width: 100%;
-  }
-
-  .cono1 .cono-completo .cono-contenedor {
-    
-    width: 100%;
-}
-.experiencia {
-  
-  width: 100%;
-  height: 42rem;
-}
-
-.formulario {
-  width: 100%;
-}
-footer {
-  width: 100%;
-
-}
-
-}
+}  

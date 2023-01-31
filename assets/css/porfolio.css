@@ -9,12 +9,7 @@
     text-align: center;
 
 }
-.porfolio .divider{
-        height: 7px;
-        width: 7rem;
-        background-color: rgb(223, 191, 141);
-        margin-left: 42%;
-}
+
 .porfolio-cosas{
     
     padding: 2rem;
@@ -42,7 +37,7 @@
     width: 100%;
 }
 .proyect .proyect-indiv{
-    width: calc(93% / 3 - (0.75em * 4));
+    width: calc(97% / 3 - (0.75em * 4));
     margin: 0.75em;
     border: 1px solid #75580b;
     border-radius: 8px;
@@ -55,7 +50,7 @@
     display: block;
     width: 100%;
     border-radius: 6px;
-    height: 83%;
+    height: 221px;
    
 }
 .proyect .proyect-casillas a{

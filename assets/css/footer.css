@@ -35,11 +35,15 @@ footer .nave-ul .nave-li .ai:hover{
 footer .nave-ul .nave-li .fo{
       width: 2.7rem;
       height: 2.7rem;
-      background-color: rgb(5, 4, 4);
+      background-color:var(--color-principal);
       border-radius: 50%;
       font-size: 1.2rem;
       line-height: 1.7rem;
       text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       
 }
+
 
